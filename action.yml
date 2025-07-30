@@ -12,7 +12,7 @@ branding:
     color: 'blue'
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: docker://ghcr.io/googlecontainertools/container-structure-test:1.19.3
   args:
     - container-structure-test
     - test
